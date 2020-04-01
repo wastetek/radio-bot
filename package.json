@@ -1,0 +1,18 @@
+{
+  "name": "radio-bot",
+  "version": "1.0.0",
+  "description": "An IRC bot to for the Waste Radio Icecast server",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "lint": "eslint ./src"
+  },
+  "author": "Ben Speakman",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "icecast-monitor": "^1.0.2",
+    "irc-framework": "^4.7.0"
+  }
+}
